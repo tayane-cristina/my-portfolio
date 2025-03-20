@@ -1,10 +1,12 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom'
+import { HeaderContainer } from '../../styled/GlobalStyles';
 
 const Header = () => {
 
 return(
-<header>
+<HeaderContainer>
+    <h2>Tayane</h2>
     <nav>
         <ul>
             <NavLink to="/">Home</NavLink>
@@ -14,7 +16,7 @@ return(
             <NavLink to="/contact">Contact</NavLink>
         </ul>
     </nav>
-</header>
+</HeaderContainer>
 
 )
 }

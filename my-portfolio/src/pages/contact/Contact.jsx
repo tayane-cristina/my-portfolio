@@ -1,11 +1,12 @@
 import React from 'react';
+import { PageContainer } from '../../styled/GlobalStyles';
 
 const Contact = () => {
 
 return(
-<div>
+<PageContainer>
     <h2>Contato</h2>
-</div>
+</PageContainer>
 
 )
 }
